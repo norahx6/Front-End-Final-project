@@ -1,20 +1,14 @@
 import { Button } from '@mui/material';
 import { useEffect } from "react";
-import { useNavigate } from 'react-router-dom';
 import "./Result.css";
 
 const Result = ({ name, score }) => {
-  const navigate=useNavigate();
- 
-  const gotoHome=()=>{
-    navigate('/');
-  }
+
 
   useEffect(() => {
-    if (!name) {
-      gotoHome();
+    if (!name) {  
     }
-  }, [name,gotoHome]);
+  }, [name]);
 
   return (
     <div className="result">
