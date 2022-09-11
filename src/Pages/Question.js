@@ -47,7 +47,7 @@ const Question = ({
 
   const handleQuit = () => {
     setCurrQues(0);
-    setQuestions();git 
+    setQuestions(); 
   };
 
   return (
