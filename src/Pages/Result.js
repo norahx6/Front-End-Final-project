@@ -26,7 +26,7 @@ const Result = ({ name, score }) => {
         style={{ alignSelf: "center", marginTop: 20 }}
         href="/"
       >
-        Go to homepage
+      Go to Homepage
       </Button>
     <img src="party.svg" className="imgs" alt="party img"/>
     </div>
