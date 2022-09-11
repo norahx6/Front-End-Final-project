@@ -9,7 +9,7 @@ function Header() {
 return(
 
 <div className='Header'>
-<lable className='titles'  > QUIZ FUN</lable>
+<lable className='titles'> START QUIZ FUN</lable>
 <hr className='line' />
 </div>
 
