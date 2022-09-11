@@ -1,11 +1,15 @@
 import './Header.css';
 
+
+
 function Header() {
+
+ 
 
 return(
 
 <div className='Header'>
-<lable className='titles'>INTUITIVE QUIZ HUB</lable>
+<lable className='titles'  > QUIZ FUN</lable>
 <hr className='line' />
 </div>
 
